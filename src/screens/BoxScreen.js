@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
     },
     textOne:{
         borderWidth: 3,
-        borderColor: 'red',
+        borderColor: 'white',
         // marginVertical: 20,
         // marginHorizontal: 20,
         flex:0.4
@@ -41,11 +41,12 @@ const styles = StyleSheet.create({
         // marginVertical: 20,
         // marginHorizontal: 20,
         alignSelf: "center",
-        flex: 1
+        flex: 1,
+        bottom: 10
     },
     textThree:{
         borderWidth: 3,
-        borderColor: 'red',
+        borderColor: 'white',
         // marginVertical: 20,
         // marginHorizontal: 20,
         flex: 0.9
