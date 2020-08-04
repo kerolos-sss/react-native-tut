@@ -2,7 +2,7 @@ import React from 'react'
 import { View, Text, StyleSheet, Image } from 'react-native'
 
 
-const ImageDetail = ({imageSource, title, score}) => {
+const ImageDetail = ({imageSource, title, score, ...propsExtra}) => {
 
     return <View>
         <Image source={imageSource} />
