@@ -30,6 +30,11 @@ const HomeScreen = (props) => {
         props.navigation.navigate("Colors");
       }}
       title="Go to Colors Demo" />
+    <Button
+      onPress={() => {
+        props.navigation.navigate("Square");
+      }}
+      title="Go to Square Color Demo" />
   </View>
 };
 
